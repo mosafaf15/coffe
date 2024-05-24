@@ -1,0 +1,40 @@
+:root{
+    --yellow:#fed801;
+    --black:#181307;
+    --bs-body-bg:var(--black);
+    --bs-body-color:var(--black);
+}
+
+.color-yellow{
+    color:var(--yellow) !important;
+}
+
+.main-margin{
+    margin-top: 150px;
+}
+
+.bg-yellow{
+    background-color:var(--yellow) !important;
+}
+
+.border-yellow{
+    border-color: var(--yellow) !important;
+}
+
+.product-img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.text-box {
+    height: 100px;
+}
+
+.product-card {
+    width: 350px;
+}
+
+.discount {
+    text-decoration: line-through red;
+}
